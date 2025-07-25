@@ -99,11 +99,12 @@ body{
 
 /* =======Header===== */
 .header{
-    position: relative;
+    /* position: relative; */
    height: calc(100vh - 100px);
    width: 100vw;
     /* background-color: #E6F0FF; */
     display: flex;
+    justify-content: space-between;
     align-items: center;
     
 }
@@ -159,11 +160,14 @@ line-height: 3.2rem;
     line-height: normal;
 }
 /* Hero Image */
- .house{
+.house{
+    align-self: flex-end;
+}
+ /* .house{
     position:absolute;
     bottom: 0;
     right:0 ;
-}
+} */
 
 
 /* ===============Client============ */
