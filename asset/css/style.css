@@ -163,7 +163,7 @@ line-height: 3.2rem;
 .hero .house{
     position:absolute;
     bottom: 0;
-    right: 0;
+    left: 1200px;
 }
 
 
